@@ -1,0 +1,193 @@
+<HEad>  
+  <link rel="ICON" type="image/PNG" href="PICS/FAVICONE.jpg">
+  <Title>CONTACT US </Title>
+</HEad>
+
+<STYle>          
+      /* Navbar Styles */
+      .navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.menu li:first-child {
+  margin-left: 0;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  text-decoration: underline;
+}</STYle>
+
+
+<nav class="navbar">
+<div class="container" >
+<ul class="menu">
+  <li><a href="INDEX.HTML">HOME</a></li>
+  <li><a href="TOTEBAGS.HTML"> OUR TOTE BAGS</a></li>
+  <li><a href="BLACKTOTES.HTML">BLACK TOTES</a></li>
+  <li><a href="CUSTOMIZEURZ.HTML">CUSTOMIZE YOURS </a></li>
+  <li ><a href="CONTACTUS.HTML">CONTACT US</a></li> 
+  <li ><a href="ABOUT.HTML">ABOUT </a></li>
+</ul>
+</div>
+</nav>
+
+
+<body>
+
+
+<style>
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+label,
+input,
+textarea {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+</style>
+
+  <form id="contactForm" action="CONNECT.PHP" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required> <br>
+  
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required> <br>
+  
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea> <br>
+  
+    <input type="submit" value="Submit">
+  </form>
+</body>
+
+
+
+
+
+
+
+
+<footer>
+   
+  <STYle>
+    /* Footer Styles */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+    
+    .footer-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    
+    .footer-column {
+      width: 30%;
+      margin-bottom: 20px;
+    }
+    
+    .footer-column h3 {
+      color: #fff;
+      margin-bottom: 10px;
+    }
+    
+    .footer-column p {
+      margin: 5px 0;
+    }
+    
+    .footer-column img {
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+    }
+    
+    .footer-bottom {
+      text-align: center;
+    }
+    
+    
+    </STYle>
+  
+        <div class="footer-content">
+          <div class="footer-column">
+            <h3>About Us</h3>
+            <p>It's called 𝓜 𝓮 𝓡 𝓐 𝓚 𝓲
+              Greek word that stands for putting something from your heart and soul.. doing it with creativity and love... leaving a piece and essence of yourself into something YOU LOVE .
+              
+              c'est à nous de créer votre 𝓜 𝓮 𝓡 𝓐 𝓚 𝓲 ... enfin vous pouvez personnaliser votre eco-friendly tote bag.</p>
+          </div>
+          <div class="footer-column">
+            <h3>Contact Us</h3>
+            <p>Email: elysianeword@gmail.com </p>
+            <p>Phone: +212 617-281387</p>
+            <p>Address: Smaala , Settat ,MAROC</p>>
+          </div>
+          <div class="footer-column">
+            <h3>Follow Us</h3>
+            <p>
+              <a href="https://web.facebook.com/profile.php?id=100086556362578"><img src="PICS/FB.jpg" alt="Facebook"></a>
+              <a href="https://www.instagram.com/tote_bag_meraki?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA=="><img src="PICS/IG.jpg" alt="Instagram"></a>
+              <a href="https://api.whatsapp.com/message/7IRIH2HCYX2OA1?autoload=1&app_absent=0"><img src="PICS/WTS.jpg" alt="WhatsApp"></a>
+            </p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2023 Tote Bag Shop. All rights reserved.</p>
+        </div>
+    
+    </footer>

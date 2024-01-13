@@ -1,0 +1,242 @@
+body{ 
+.TITLE{
+  color: rgb(0, 0, 0);
+  font-size:NORMAL;
+  font-style: oblique;
+  font-display: AUTO;
+}
+
+
+
+
+
+
+
+
+
+
+
+      /* Navbar Styles */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.menu li:first-child {
+  margin-left: 0;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/*TESWIRA D HOME PAGE STYLE  */
+
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.image-container {
+  width: 400px; /* Adjust the size of the image container */
+  height: 500px; /* Adjust the size of the image container */
+  overflow: hidden;
+  margin-right: 30PX;
+}
+
+
+.image {
+  width: 80%;
+  height: auto;
+}
+
+.text {
+  text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+/*TESWIRA D HOME PAGE STYLE TANIA */
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  margin-right: 50px; /* Adjust the spacing between the text and image */
+  text-align: left;
+}
+
+.image-container {
+  width: 400px; /* Adjust the size of the image container */
+  height: 500px; /* Adjust the size of the image container */
+  overflow: hidden;
+
+}
+
+
+
+.image {
+  width: 80%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.footer-column {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.footer-column h3 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.footer-column p {
+  margin: 5px 0;
+}
+
+.footer-column img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+.carousel {
+  display: flex;
+  overflow: hidden;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s;
+}
+
+.carousel img:not(:first-child) {
+  transform: translateX(100%);
+}
+
+button {
+  margin-top: 10px;
+}
+               
+        
